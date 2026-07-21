@@ -18,6 +18,8 @@ Pythonic where R syntax does not translate directly: use quoted palette names an
 - Source repository: <https://github.com/marioernestovaldes/py-ltc-color-palettes>
 - Upstream R reference: <https://github.com/loukesio/ltc-color-palettes>
 
+![ltc palettes in omics-style plots](docs/assets/images/omics-examples.png)
+
 ## Install
 
 ```bash

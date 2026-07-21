@@ -5,6 +5,8 @@
 It brings the same curated color palettes, bios, palette adjustments, CVD
 preview, swatch plot, and bird plot to Python.
 
+![ltc palettes in omics-style plots](assets/images/omics-examples.png)
+
 ## Install
 
 ```bash

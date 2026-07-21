@@ -3,6 +3,8 @@
 These examples mirror the main workflows from the upstream R package, translated
 to Python.
 
+![ltc palettes in omics-style plots](assets/images/omics-examples.png)
+
 ## Select A Palette
 
 ```python
@@ -36,6 +38,8 @@ fig, ax = plot_palette(ltc("alger"))
 fig.savefig("alger.png", dpi=160, bbox_inches="tight")
 ```
 
+![alger palette swatch](assets/images/swatch-alger.png)
+
 ## Bird Plot
 
 ```python
@@ -44,6 +48,8 @@ from py_ltc_color_palettes import bird, ltc
 fig, ax = bird(ltc("pantone23"))
 fig.savefig("pantone23-bird.png", dpi=160, bbox_inches="tight")
 ```
+
+![pantone23 bird plot](assets/images/bird-pantone23.png)
 
 ## Adjust, Brighten, Darken, And Desaturate
 
@@ -60,6 +66,8 @@ custom = custom_adjust_ltc("maya", [-40, -20, 0, 20, 40])
 muted = desaturate_ltc("maya", amount=0.6)
 ```
 
+![palette adjustment showcase](assets/images/adjustment-showcase.png)
+
 ## Color-Vision-Deficiency Preview
 
 `ltc_cvd()` shows normal, deuteranopia, protanopia, and tritanopia previews.
@@ -70,6 +78,8 @@ from py_ltc_color_palettes import ltc_cvd
 fig, ax = ltc_cvd("maya")
 fig, ax = ltc_cvd("expevo", severity=0.6)
 ```
+
+![color-vision-deficiency showcase](assets/images/cvd-showcase.png)
 
 ## Matplotlib Usage
 

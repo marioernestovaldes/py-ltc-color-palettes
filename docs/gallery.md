@@ -3,6 +3,8 @@
 The Python package ports the upstream R palette names, hex values, and bios.
 Palette names are strings, and `palettes` is a read-only mapping.
 
+![All ltc palettes](assets/images/palette-overview.png)
+
 ```python
 from py_ltc_color_palettes import palettes
 
