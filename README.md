@@ -7,6 +7,13 @@ color-vision-deficiency preview, swatch plot, and bird plot to Python. The API i
 Pythonic where R syntax does not translate directly: use quoted palette names and
 0-based indexes for `which`.
 
+## Links
+
+- Documentation: <https://marioernestovaldes.github.io/py-ltc-color-palettes/>
+- Live palette explorer: <https://marioernestovaldes.github.io/py-ltc-color-palettes/palette-explorer.html>
+- Source repository: <https://github.com/marioernestovaldes/py-ltc-color-palettes>
+- Upstream R reference: <https://github.com/loukesio/ltc-color-palettes>
+
 ## Install
 
 ```bash
@@ -51,15 +58,19 @@ fig, ax = ltc_cvd("expevo", severity=0.6)
 
 ## Documentation
 
+The hosted MkDocs Material site is available at
+<https://marioernestovaldes.github.io/py-ltc-color-palettes/>.
+
+The live palette explorer is available directly at
+<https://marioernestovaldes.github.io/py-ltc-color-palettes/palette-explorer.html>.
+It includes live palette selection, brightness adjustment, color-vision
+simulation, and omics-style chart previews.
+
 Build the MkDocs Material site locally:
 
 ```bash
 mkdocs serve
 ```
-
-The site includes a standalone `palette-explorer.html` page with live palette
-selection, brightness adjustment, color-vision simulation, and six chart
-previews.
 
 ## Reference
 
