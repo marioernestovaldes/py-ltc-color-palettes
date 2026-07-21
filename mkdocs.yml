@@ -1,7 +1,8 @@
 site_name: py-ltc-color-palettes
 site_description: Python replica of loukesio/ltc-color-palettes.
-repo_url: https://github.com/loukesio/ltc-color-palettes
-repo_name: loukesio/ltc-color-palettes
+site_url: https://marioernestovaldes.github.io/py-ltc-color-palettes/
+repo_url: https://github.com/marioernestovaldes/py-ltc-color-palettes
+repo_name: marioernestovaldes/py-ltc-color-palettes
 
 theme:
   name: material
