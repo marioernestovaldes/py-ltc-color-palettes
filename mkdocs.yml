@@ -18,6 +18,8 @@ theme:
 nav:
   - Home: index.md
   - Usage: usage.md
+  - Palette Gallery: gallery.md
+  - Examples: examples.md
   - Reference: reference.md
   - Palette Explorer: palette-explorer.html
 

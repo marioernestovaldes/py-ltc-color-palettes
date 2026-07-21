@@ -1,5 +1,9 @@
 # Usage
 
+This page covers the core API. For a longer walk-through with plotting examples,
+see [Examples](examples.md). For all palette names and bios, see
+[Palette Gallery](gallery.md).
+
 ## List Palettes
 
 ```python
@@ -20,6 +24,10 @@ continuous = ltc("remains", n=10, type="continuous")
 
 Python callers use quoted palette names. Index arguments such as `which` use
 normal Python 0-based indexing.
+
+Discrete palettes return colors from the source palette. Continuous palettes
+interpolate across the full source palette, similar in purpose to R's
+`grDevices::colorRampPalette`.
 
 ## Adjust Palettes
 
